@@ -1,4 +1,4 @@
-package src.dadatypes.primitives;
+package src.datatypes.primitives;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

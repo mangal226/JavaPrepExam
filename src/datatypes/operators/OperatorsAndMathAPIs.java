@@ -1,4 +1,4 @@
-package src.dadatypes.operators;
+package src.datatypes.operators;
 
 public class OperatorsAndMathAPIs {
 

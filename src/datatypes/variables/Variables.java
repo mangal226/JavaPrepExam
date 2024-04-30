@@ -29,7 +29,7 @@ public class Variables {
         ++intNumber;
 
         System.out.println("The content of the variable inside the function is : " + content);
-        
+
         System.out.println("The content of the int variable inside the function is : " + intNumber);
     }
 }
