@@ -1,13 +1,10 @@
-package src.dadatypes;
+package src.dadatypes.primitives;
 
-import javax.swing.text.DateFormatter;
-import java.sql.Time;
-import java.text.DateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
-public class WorkingWithDataTypes {
+public class PrimitiveTypesAndVariables {
 
     public static void main(String [] args){
         //System.out.println("Working with data types");
@@ -47,7 +44,7 @@ public class WorkingWithDataTypes {
          */
         int int1 = 134;
         int int2 = 340;
-        String result = String.valueOf(int1>int2 ?  int1:+int2);
+
 
         Date myDate = new Date();
         LocalDateTime myLocalDate = LocalDateTime.now();
@@ -84,7 +81,7 @@ public class WorkingWithDataTypes {
 
         System.out.println("My binary : " + myBinary);
 
-        System.out.println("The maximum number using ternary : " + result);
+
 
         System.out.println("Printing the date : " + myDate);
 
