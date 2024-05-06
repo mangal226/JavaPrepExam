@@ -38,8 +38,20 @@ public class OperatorsAndMathAPIs {
 
         Boolean isNotOK = !(numberOne>2 && numberTwo>5) ? true: false;
 
+        Boolean x = true;
 
-        //Does not exist in java
+        Boolean y = false;
+
+        /**
+         * The order is in the xor then the or | then the and and to finish the ||
+         */
+        Boolean operatorsOrder = x && y^x || x | y;
+
+        int myX = 3, myY = 6, myZ = 2;
+        myZ *= myY/myX - myY - myX > myY ? 4 : 2;
+
+
+        //Does not exist in java ===
         // Boolean equalsNumberTwo = ( numberOne === numberTwo);
         /**
          * Other operators
@@ -88,5 +100,40 @@ public class OperatorsAndMathAPIs {
         System.out.println("IsNotOK : " + isNotOK);
 
 
+    }
+}
+
+/**
+ * Custom wrappers: a wrapper permits to converts between different types
+ */
+final class Volume {
+    private final Double MIN_VALUE = Double.valueOf(0);
+    private final Double MAX_VALUE = Double.MAX_VALUE;
+    private final double liters;
+
+    public Volume(double inLiters){
+        if( inLiters <= MIN_VALUE) throw new NumberFormatException();
+        this.liters = inLiters;
+    }
+
+    public double getLiters() {
+        return liters;
+    }
+
+    public double inMilliliters(){
+        return liters * 1000;
+    }
+
+    public double inQuarts(){
+        return liters * 1.05669;
+    }
+
+    @Override
+    public String toString() {
+        return Double.toString(liters) + "liters";
+    }
+
+    public int hashCode(){
+        return this.toString().hashCode();
     }
 }

@@ -68,11 +68,7 @@ public class PrimitiveTypesAndVariables {
         byte myByteValueOverflow = (byte) myShortValueOverflow;
 
 
-        Date myDate = new Date();
-        LocalDateTime myLocalDate = LocalDateTime.now();
-        String formatOfDate = "dd MM yyyy hh:mm:ss";
-        DateTimeFormatter formatter= DateTimeFormatter.ofPattern(formatOfDate);
-        String dateFormated = myLocalDate.format(formatter);
+
 
 
 
@@ -102,12 +98,6 @@ public class PrimitiveTypesAndVariables {
         System.out.println("My hexadecimal : " + myHexadecimal);
 
         System.out.println("My binary : " + myBinary);
-
-
-
-        System.out.println("Printing the date : " + myDate);
-
-        System.out.println("Date formated : " + dateFormated);
 
         System.out.println("Short from int : " + myShortFromInt);
 
