@@ -8,7 +8,7 @@ public class ConditionnalLogic {
         int myNumber = 456789865;
         Boolean isPrimeNumber = isPrime(myNumber);
         System.out.println("Is my number prime ? " + isPrimeNumber);
-
+ 
         for( Object stringNum : myEnum.values()){
             System.out.println(stringNum);
         }
