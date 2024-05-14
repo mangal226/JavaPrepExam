@@ -8,7 +8,7 @@ public class ConditionnalLogic {
         int myNumber = 456789865;
         Boolean isPrimeNumber = isPrime(myNumber);
         System.out.println("Is my number prime ? " + isPrimeNumber);
- 
+
         for( Object stringNum : myEnum.values()){
             System.out.println(stringNum);
         }
@@ -80,5 +80,24 @@ public class ConditionnalLogic {
             case 7 : return "Sunday";
             default:  return "Not a day";
         }
+    }
+
+    private static String verifyAge(int age){
+        enum typeAge {YOUNG, ADULT};
+        Boolean range_sup = age>18;
+
+        typeAge rangeSupEnum = null;
+        if (range_sup) rangeSupEnum = typeAge.ADULT;
+
+        String toReturn = "";
+        switch (rangeSupEnum){
+
+            case ADULT : toReturn = "Adult";
+            break;
+            case YOUNG : toReturn = "Young";
+            break;
+            default: toReturn = "Not young not adult";
+        }
+        return toReturn;
     }
 }
