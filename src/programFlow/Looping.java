@@ -3,6 +3,8 @@ package src.programFlow;
 import java.util.Arrays;
 
 public class Looping {
+    enum days {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY};
+    enum letters {A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z };
 
     public static void main(String[] args){
         whileLoopDays();
@@ -33,7 +35,6 @@ public class Looping {
     }
 
     private static void whileLoopDays(){
-        enum days {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY};
 
         days [] values = days.values();
         int i = 0;
@@ -61,12 +62,12 @@ public class Looping {
     }
 
     private static void forLoop(){
-        enum letters {A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z };
         letters[] table = letters.values();
         for(int i=0; i<table.length; i++)
                 System.out.println("Printing the letter : " + table[i]);
-        Arrays.stream(table).toList()
-                .forEach(letter -> System.out.println("Printing the letter with stream : " + letter));
+        /*Arrays.stream(table).toList()
+                .forEach(letter -> System.out.println("Printing the letter with stream : " + letter));*/
+        Arrays.stream(table).forEach( letter -> System.out.println("Printing the element with stream : " + letter));
 
         for(letters letter : table){
             System.out.println("Printing letter with foreach : " + letter);

@@ -3,6 +3,7 @@ package src.programFlow;
 public class ConditionnalLogic {
     enum myEnum { JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER,
         NOVEMBER, DECEMBER };
+    enum typeAge {YOUNG, ADULT};
 
     public static void main(String[] args){
         int myNumber = 456789865;
@@ -83,7 +84,6 @@ public class ConditionnalLogic {
     }
 
     private static String verifyAge(int age){
-        enum typeAge {YOUNG, ADULT};
         Boolean range_sup = age>18;
 
         typeAge rangeSupEnum = null;
