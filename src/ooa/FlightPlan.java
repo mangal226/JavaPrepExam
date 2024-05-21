@@ -15,9 +15,9 @@ public class FlightPlan {
     LocalDateTime departureTime;
     String route;
 
-    static int numberOfFlights = 0;
+    static int numberOfFlights = 0; // static field
 
-    static final int MAX_FLIGHT_HOUR = 10000;
+    static final int MAX_FLIGHT_HOUR = 10000; // static field
 
     enum parisToOuaga {CDG, ACC, OUA};
     enum berlinToYork {BER, ORY, LAX, JFK};
@@ -51,8 +51,10 @@ public class FlightPlan {
         System.out.println(flight1.toString());
         FlightPlan flight2 = new FlightPlan("BER", "JFK", LocalDateTime.of(2024, 05, 20, 11, 10, 00), Arrays.stream(berlinToYork.values()).collect(Collectors.toList()).toString());
         System.out.println(flight2.toString());
-        FlightPlan flight3 = new FlightPlan("", "", LocalDateTime.of(2024, 05, 20, 11, 10, 00), Arrays.stream(berlinToYork.values()).collect(Collectors.toList()).toString());
-        System.out.println(flight3.toString());
+        //FlightPlan flight3 = new FlightPlan("", "", LocalDateTime.of(2024, 05, 20, 11, 10, 00), Arrays.stream(berlinToYork.values()).collect(Collectors.toList()).toString());
+        //System.out.println(flight3.toString());
+        //continue; // continue has to be used in a loop for, while or other
+        swap(34, 54);
     }
 
 
@@ -66,7 +68,19 @@ public class FlightPlan {
      * local variables are instanciated in methods and have no values outside
      * parameters are variables set in the declaration of a method
      * method name should always begin with verb e.g. setCurrent, getDatan calculateDif, printUser ...
+     * field shadowing : using the same name of a method variable as similar of the field variable name
      */
+
+    /**
+     * passing parameters
+     * primitive types i.e. int, boolean, byte, short, long are passed by value
+     * Non primitive types e.g. String, Boolean, Array, HashMap are passed by reference
+     * difference between parameter and argument : argument is the real value swap(3,4) and parameter is what specified in declaring the method void swap(int a, int b)
+     */
+    private static void swap(int a, int b){
+        int aux = a; a = b; b = aux;
+        System.out.println("Hello world my name is : " + Thread.currentThread().getName()); System.out.println("My id is : " + Thread.currentThread().getId()); System.out.println("My priority is : " + Thread.currentThread().getPriority());
+    }
 
 
 
