@@ -12,6 +12,26 @@ public class ClassesAndObjects implements MyInterface{
             human.printUser();
         });
     }
+
+    @Override
+    public void setLanguage() {
+
+    }
+
+    @Override
+    public void setCareer() {
+
+    }
+
+    @Override
+    public void greetings() {
+        MyInterface.super.greetings();
+    }
+
+    @Override
+    public void currentThread() {
+        MyInterface.super.currentThread();
+    }
 }
 
 class MyFirstClass implements MyInterface{
@@ -63,5 +83,25 @@ class MyFirstClass implements MyInterface{
     }
     public void definePerson() {};
     public void makeCall(){};
+
+    @Override
+    public void setLanguage() {
+
+    }
+
+    @Override
+    public void setCareer() {
+
+    }
+
+    @Override
+    public void greetings() {
+        MyInterface.super.greetings();
+    }
+
+    @Override
+    public void currentThread() {
+        MyInterface.super.currentThread();
+    }
 
 }

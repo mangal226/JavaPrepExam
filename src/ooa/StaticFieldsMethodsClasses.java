@@ -89,5 +89,50 @@ public class StaticFieldsMethodsClasses {
      * a static nested class is a normal class that has been declared inside a class for convenience
      */
 
+
+    /**
+     * abstract classes are used to create template for future classes, but let them provide the actual implementation
+     * they permit to share functionality with future subclasses
+     */
+    public abstract class  Aircraft{
+
+        private int altitude;
+
+        public abstract void land();
+
+        public abstract void takeoff();
+
+        public int getAltitude(){
+            return this.altitude;
+        }
+
+    }
+
+    public class Helicopter extends Aircraft{
+
+        @Override
+        public void land() {
+
+        }
+
+        @Override
+        public void takeoff() {
+
+        }
+    }
+
+    public class Glider extends Aircraft{
+
+        @Override
+        public void land() {
+
+        }
+
+        @Override
+        public void takeoff() {
+
+        }
+    }
+
 }
 
