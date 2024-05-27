@@ -2,6 +2,7 @@ package src.ooa;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.UUID;
 
 public class StaticFieldsMethodsClasses {
 
@@ -37,6 +38,9 @@ public class StaticFieldsMethodsClasses {
         System.out.println(StaticFieldsMethodsClasses.numberOfCalls);
         StaticFieldsMethodsClasses secondCall = new StaticFieldsMethodsClasses();
         System.out.println(numberOfCalls);
+        StaticFieldsMethodsClasses.MyStaticClass.MySubclass mySubclass = new StaticFieldsMethodsClasses.MyStaticClass.MySubclass();
+        System.out.println(mySubclass.className);
+        System.out.println(mySubclass.id);
     }
 
     public static void sayHello(){
@@ -64,7 +68,26 @@ public class StaticFieldsMethodsClasses {
             this.pckgName = MyStaticClass.class.getPackageName();
             this.classesNames = MyStaticClass.class.getClasses();
         }
+
+        private static class MySubclass{
+            private String id;
+            private String className;
+
+            public MySubclass(){
+                this.id = String.valueOf(UUID.randomUUID());
+                this.className = MySubclass.class.getName();
+            }
+
+
+        }
     }
+
+    /**
+     * Recap:
+     * static members belong to the class not individual instances
+     * static methods can not access instance members directly, only through an object reference
+     * a static nested class is a normal class that has been declared inside a class for convenience
+     */
 
 }
 
