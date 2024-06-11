@@ -22,11 +22,14 @@ public class FlightPlan {
     enum parisToOuaga {CDG, ACC, OUA};
     enum berlinToYork {BER, ORY, LAX, JFK};
 
+    enum brusselToOuaga { BRU, OUA};
+
+    enum madridToYork {MAD, BER, ORY, LAX, JFK};
     private FlightPlan(){
         this.id = UUID.randomUUID().toString();
     }
 
-    private FlightPlan(String from, String to, LocalDateTime depTime, String checksAirports){
+    FlightPlan(String from, String to, LocalDateTime depTime, String checksAirports){
         this();
         if(from.isBlank() || to.isBlank() || checksAirports == null) throw new IllegalArgumentException();
         this.departure = from;
@@ -44,6 +47,10 @@ public class FlightPlan {
                 ", departureTime=" + departureTime +
                 ", route=" + route +
                 '}';
+    }
+
+    public boolean check(String to){
+        return this.route.equalsIgnoreCase(to);
     }
 
     public static void main(String[] args){
