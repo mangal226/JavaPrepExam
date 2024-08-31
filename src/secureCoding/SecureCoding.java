@@ -33,6 +33,10 @@ public class SecureCoding {
      */
 
     /**
+     * Calling a constructor by using readResolve
+     */
+
+    /**
      *
      * @param args
      */
@@ -84,13 +88,13 @@ public class SecureCoding {
         }
 
         void testEncapsulationSerializable() throws IOException {
-             Person a = new Person("zoubeida", "45");
+             Person a = new Person("dave", "23");
              ByteArrayOutputStream baos = new ByteArrayOutputStream();
              try (ObjectOutputStream oos = new ObjectOutputStream(baos)){
                 oos.writeObject(a);
              }
              byte[] bytes = baos.toByteArray();
-             bytes[237] = 12;
+             //bytes[237] = 12;
              try (ObjectInputStream ois = new ObjectInputStream( new ByteArrayInputStream(bytes))){
                 Person b = (Person) ois.readObject();
                 System.out.println(a);
