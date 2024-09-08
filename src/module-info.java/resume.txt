@@ -1,0 +1,894 @@
+hly@ITEM-S136649 MINGW64 ~
+$ pwd
+/c/Users/hly
+
+hly@ITEM-S136649 MINGW64 ~
+$ cd
+
+hly@ITEM-S136649 MINGW64 ~
+$ pwd
+/c/Users/hly
+
+hly@ITEM-S136649 MINGW64 ~
+$ ll
+total 18261
+drwxr-xr-x 1 hly 1049089        0 Jan 24  2022 '3D Objects'/
+drwxr-xr-x 1 hly 1049089        0 Jan 24  2022  AppData/
+drwxr-xr-x 1 hly 1049089        0 Oct 25  2022  AppMods/
+lrwxrwxrwx 1 hly 1049089       28 Jan 24  2022 'Application Data' -> /c/Users/hly/AppData/Roaming/
+drwxr-xr-x 1 hly 1049089        0 Jan 24  2022  Contacts/
+lrwxrwxrwx 1 hly 1049089       56 Jan 24  2022  Cookies -> /c/Users/hly/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 hly 1049089        0 Jan 18  2024  Desktop/
+drwxr-xr-x 1 hly 1049089        0 Jan 19  2024  Documents/
+drwxr-xr-x 1 hly 1049089        0 Aug 31 08:15  Downloads/
+drwxr-xr-x 1 hly 1049089        0 Jan 20  2023  Favorites/
+drwxr-xr-x 1 hly 1049089        0 Apr 22 12:58  IdeaProjects/
+drwxr-xr-x 1 hly 1049089        0 Aug 29 08:06  IntelGraphicsProfiles/
+drwxr-xr-x 1 hly 1049089        0 Jan 24  2022  Links/
+lrwxrwxrwx 1 hly 1049089       26 Jan 24  2022 'Local Settings' -> /c/Users/hly/AppData/Local/
+lrwxrwxrwx 1 hly 1049089       57 Jan 24  2022 'Menu Démarrer' -> '/c/Users/hly/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 hly 1049089       22 Jan 24  2022 'Mes documents' -> /c/Users/hly/Documents/
+lrwxrwxrwx 1 hly 1049089       56 Jan 24  2022  Modèles -> /c/Users/hly/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 hly 1049089        0 Oct 25  2022  Music/
+-rw-r--r-- 1 hly 1049089 11010048 Aug 29 08:04  NTUSER.DAT
+-rw-r--r-- 1 hly 1049089    65536 Jan 24  2022  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+-rw-r--r-- 1 hly 1049089   524288 Jan 24  2022  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 hly 1049089   524288 Jan 24  2022  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+drwxr-xr-x 1 hly 1049089        0 Oct 25  2022  OneDrive/
+drwxr-xr-x 1 hly 1049089        0 Aug 30 17:37 'OneDrive - Sopra Steria'/
+drwxr-xr-x 1 hly 1049089        0 Jul  3  2023  Pictures/
+drwxr-xr-x 1 hly 1049089        0 Feb 14  2023  Postman/
+lrwxrwxrwx 1 hly 1049089       53 Jan 24  2022  Recent -> /c/Users/hly/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 hly 1049089        0 Oct 25  2022 'Recorded Calls'/
+drwxr-xr-x 1 hly 1049089        0 Jan 24  2022 'Saved Games'/
+drwxr-xr-x 1 hly 1049089        0 Apr 25  2022  Searches/
+lrwxrwxrwx 1 hly 1049089       53 Jan 24  2022  SendTo -> /c/Users/hly/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 hly 1049089        0 Oct 25  2022  SoapUI-Tutorials/
+drwxr-xr-x 1 hly 1049089        0 Jan 18  2024 'Sopra Steria'/
+drwxr-xr-x 1 hly 1049089        0 Jan 24  2022  Videos/
+lrwxrwxrwx 1 hly 1049089       64 Jan 24  2022 "Voisinage d'impression" -> '/c/Users/hly/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 hly 1049089       64 Jan 24  2022 'Voisinage réseau' -> '/c/Users/hly/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 hly 1049089  3080192 Jan 24  2022  ntuser.dat.LOG1
+-rw-r--r-- 1 hly 1049089  2787328 Jan 24  2022  ntuser.dat.LOG2
+-rw-r--r-- 1 hly 1049089       20 Jan 24  2022  ntuser.ini
+drwxr-xr-x 1 hly 1049089        0 Jul 11  2023  source/
+
+hly@ITEM-S136649 MINGW64 ~
+$ cd Desktop/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop
+$ ll
+total 57
+drwxr-xr-x 1 hly 1049089     0 Jan 18  2024  Formation/
+drwxr-xr-x 1 hly 1049089     0 Apr 22 12:52  Git/
+-rwxr-xr-x 1 hly 1049089   885 Jan  5  2024 'MinGW Installer.lnk'*
+-rwxr-xr-x 1 hly 1049089  2185 Feb 16  2023  Postman.lnk*
+-rwxr-xr-x 1 hly 1049089  1404 Jan  5  2024 'Visual Studio Code.lnk'*
+-rw-r--r-- 1 hly 1049089   282 Jan 24  2022  desktop.ini
+-rw-r--r-- 1 hly 1049089 27350 Jan 20  2023  hosts
+-rw-r--r-- 1 hly 1049089  2068 Jul  3  2023 'preparation reunion.txt'
+
+hly@ITEM-S136649 MINGW64 ~/Desktop
+$ cd Git/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git
+$ ll
+total 24
+drwxr-xr-x 1 hly 1049089 0 May 20 12:15 JavaPrepExam/
+drwxr-xr-x 1 hly 1049089 0 Nov 15  2023 Portfolio/
+drwxr-xr-x 1 hly 1049089 0 Feb 10  2024 hopital-back/
+drwxr-xr-x 1 hly 1049089 0 Jan 18  2024 hopital-front/
+drwxr-xr-x 1 hly 1049089 0 Nov 19  2023 portfolio_updated/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git
+$ mkdir AWS
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git
+$ ll
+total 24
+drwxr-xr-x 1 hly 1049089 0 Aug 31 08:19 AWS/
+drwxr-xr-x 1 hly 1049089 0 May 20 12:15 JavaPrepExam/
+drwxr-xr-x 1 hly 1049089 0 Nov 15  2023 Portfolio/
+drwxr-xr-x 1 hly 1049089 0 Feb 10  2024 hopital-back/
+drwxr-xr-x 1 hly 1049089 0 Jan 18  2024 hopital-front/
+drwxr-xr-x 1 hly 1049089 0 Nov 19  2023 portfolio_updated/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git
+$ cd AWS
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS
+$ echo "# AWS Cloud" >> README.md
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS
+$ git init
+Initialized empty Git repository in C:/Users/hly/Desktop/Git/AWS/.git/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the nex
+t time Git touches it
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (master)
+$ git commit -m "Initialization of the project"
+[master (root-commit) 4b5c0b7] Initialization of the project
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (master)
+$ git branch -M main
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ git remote add origin https://github.com/mangal226/AWSCloud.git
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 238 bytes | 238.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mangal226/AWSCloud.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ ll
+total 1
+-rw-r--r-- 1 hly 1049089 12 Aug 31 08:20 README.md
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ javac --help
+Usage: javac <options> <source files>
+where possible options include:
+  @<filename>                  Read options and filenames from file
+  -Akey[=value]                Options to pass to annotation processors
+  --add-modules <module>(,<module>)*
+        Root modules to resolve in addition to the initial modules, or all modul
+es
+        on the module path if <module> is ALL-MODULE-PATH.
+  --boot-class-path <path>, -bootclasspath <path>
+        Override location of bootstrap class files
+  --class-path <path>, -classpath <path>, -cp <path>
+        Specify where to find user class files and annotation processors
+  -d <directory>               Specify where to place generated class files
+  -deprecation
+        Output source locations where deprecated APIs are used
+  --enable-preview
+        Enable preview language features. To be used in conjunction with either
+-source or --release.
+  -encoding <encoding>         Specify character encoding used by source files
+  -endorseddirs <dirs>         Override location of endorsed standards path
+  -extdirs <dirs>              Override location of installed extensions
+  -g                           Generate all debugging info
+  -g:{lines,vars,source}       Generate only some debugging info
+  -g:none                      Generate no debugging info
+  -h <directory>
+        Specify where to place generated native header files
+  --help, -help, -?            Print this help message
+  --help-extra, -X             Print help on extra options
+  -implicit:{none,class}
+        Specify whether or not to generate class files for implicitly referenced
+ files
+  -J<flag>                     Pass <flag> directly to the runtime system
+  --limit-modules <module>(,<module>)*
+        Limit the universe of observable modules
+  --module <module>(,<module>)*, -m <module>(,<module>)*
+        Compile only the specified module(s), check timestamps
+  --module-path <path>, -p <path>
+        Specify where to find application modules
+  --module-source-path <module-source-path>
+        Specify where to find input source files for multiple modules
+  --module-version <version>
+        Specify version of modules that are being compiled
+  -nowarn                      Generate no warnings
+  -parameters
+        Generate metadata for reflection on method parameters
+  -proc:{none,only}
+        Control whether annotation processing and/or compilation is done.
+  -processor <class1>[,<class2>,<class3>...]
+        Names of the annotation processors to run; bypasses default discovery pr
+ocess
+  --processor-module-path <path>
+        Specify a module path where to find annotation processors
+  --processor-path <path>, -processorpath <path>
+        Specify where to find annotation processors
+  -profile <profile>
+        Check that API used is available in the specified profile
+  --release <release>
+        Compile for the specified Java SE release. Supported releases: 7, 8, 9,
+10, 11, 12, 13, 14, 15, 16, 17
+  -s <directory>               Specify where to place generated source files
+  --source <release>, -source <release>
+        Provide source compatibility with the specified Java SE release. Support
+ed releases: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+  --source-path <path>, -sourcepath <path>
+        Specify where to find input source files
+  --system <jdk>|none          Override location of system modules
+  --target <release>, -target <release>
+        Generate class files suitable for the specified Java SE release. Support
+ed releases: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+  --upgrade-module-path <path>
+        Override location of upgradeable modules
+  -verbose                     Output messages about what the compiler is doing
+  --version, -version          Version information
+  -Werror                      Terminate compilation if warnings occur
+
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ pwd
+/c/Users/hly/Desktop/Git/AWS
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ cd ../
+AWS/               Portfolio/         hopital-front/
+JavaPrepExam/      hopital-back/      portfolio_updated/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ cd ../JavaPrepExam/
+.git/             README.md         out/
+.idea/            module-info.java/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ cd ../JavaPrepExam/src/
+HelloWorld.java    javamodulesystem/  ooa/               test/
+datatypes/         module-info.java/  programFlow/
+exceptionhandling/ moduleOutside/     secureCoding/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ cd ../JavaPrepExam/src/javamodulesystem/
+JDK module overview.PNG  Modules.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/AWS (main)
+$ cd ../JavaPrepExam/src/javamodulesystem/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/javamodulesystem (main)
+$ ll
+total 208
+-rw-r--r-- 1 hly 1049089 208831 Sep  2 08:22 'JDK module overview.PNG'
+-rw-r--r-- 1 hly 1049089    957 Sep  2 08:32  Modules.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/javamodulesystem (main)
+$ cd ..
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src (main)
+$ ll
+total 21
+-rw-r--r-- 1 hly 1049089 143 Apr 22 13:08 HelloWorld.java
+drwxr-xr-x 1 hly 1049089   0 May  6 13:19 datatypes/
+drwxr-xr-x 1 hly 1049089   0 Jun 14 08:45 exceptionhandling/
+drwxr-xr-x 1 hly 1049089   0 Sep  2 08:32 javamodulesystem/
+drwxr-xr-x 1 hly 1049089   0 Sep  2 08:33 module-info.java/
+drwxr-xr-x 1 hly 1049089   0 Sep  3 07:00 moduleOutside/
+drwxr-xr-x 1 hly 1049089   0 Jun 11 08:59 ooa/
+drwxr-xr-x 1 hly 1049089   0 May 20 12:26 programFlow/
+drwxr-xr-x 1 hly 1049089   0 Sep  2 08:12 secureCoding/
+drwxr-xr-x 1 hly 1049089   0 Apr 22 13:39 test/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src (main)
+$ cd javamodulesystem/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/javamodulesystem (main)
+$ ll
+total 208
+-rw-r--r-- 1 hly 1049089 208831 Sep  2 08:22 'JDK module overview.PNG'
+-rw-r--r-- 1 hly 1049089    957 Sep  2 08:32  Modules.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/javamodulesystem (main)
+$ cd ../module
+module-info.java/ moduleOutside/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/javamodulesystem (main)
+$ cd ../moduleOutside/creating_module1/src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1/src (main)
+$ cd ..
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ ll
+total 0
+drwxr-xr-x 1 hly 1049089 0 Sep  3 07:01 src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/
+javamodularity/   module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/
+javamodularity/   module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/javamodularity/greeter/Main.java src/module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/javamodularity/greeter/Main.java src/module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/javamodularity.greeter.Main
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Error reading module: out
+Caused by: java.lang.module.InvalidModuleDescriptorException: Main.class found i
+n top-level directory (unnamed package not allowed in module)
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m javamodularity.greeter.Main
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Error reading module: out
+Caused by: java.lang.module.InvalidModuleDescriptorException: Main.class found i
+n top-level directory (unnamed package not allowed in module)
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/javamodularity.greeter.Main
+Error: Could not find or load main class javamodularity.greeter.Main in module g
+reeter
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/greeter.Main
+Error: Unable to load main class greeter.Main in module greeter
+        java.lang.NoClassDefFoundError: Main (wrong name: greeter/Main)
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/Main
+Error: Could not find or load main class Main in module greeter
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/javamodularity.greeter.Main
+Error: Unable to load main class javamodularity.greeter.Main in module greeter
+        java.lang.NoClassDefFoundError: Main (wrong name: javamodularity/greeter
+/Main)
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m javamodularity.greeter.Main
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Module javamodularity.greeter.Main not found
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m out/
+javamodularity/    module-info.class
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m out/javamodularity/greeter/Main.class
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Module out not found
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m out/javamodularity/greeter/Main
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Module out not found
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/javamodularity/greeter/Main
+Error: Could not find or load main class javamodularity/greeter/Main in module g
+reeter
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/javamodularity/greeter/Main.class
+Error: Could not find or load main class javamodularity/greeter/Main.class in mo
+dule greeter
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/javamodularity/greeter/Main.java src/module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/javamodularity/greeter/Main.class
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Error reading module: out
+Caused by: java.lang.module.InvalidModuleDescriptorException: Main.class found i
+n top-level directory (unnamed package not allowed in module)
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/Main.class
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Error reading module: out
+Caused by: java.lang.module.InvalidModuleDescriptorException: Main.class found i
+n top-level directory (unnamed package not allowed in module)
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ pwd
+/c/Users/hly/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/com/javamodularity/greeter/Main.java src/
+com/              module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/com/javamodularity/greeter/Main.java src/module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ javac -d out src/com/javamodularity/greeter/Main.java src/module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ java -p out -m greeter/com.javamodularity.greeter.Main
+Greetings from a module!
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ ll
+total 4
+drwxr-xr-x 1 hly 1049089 0 Sep  4 07:09 out/
+drwxr-xr-x 1 hly 1049089 0 Sep  4 07:07 src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ cd ../creati
+creating_module1/    creationg_module_hl/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ ll
+total 4
+drwxr-xr-x 1 hly 1049089 0 Sep  4 07:09 out/
+drwxr-xr-x 1 hly 1049089 0 Sep  4 07:07 src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module1 (main)
+$ cd ..
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside (main)
+$ ll
+total 0
+drwxr-xr-x 1 hly 1049089 0 Sep  3 07:06 creating_module1/
+drwxr-xr-x 1 hly 1049089 0 Sep  5 06:43 creating_module_hl/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside (main)
+$ cd creating_module_hl/src/
+javamodularity/   module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside (main)
+$ cd creating_module_hl/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ javac -d out src/
+javamodularity/   module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ javac -d out src/javamodularity/greeter/Main.class src/
+javamodularity/   module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ javac -d out src/javamodularity/greeter/Main.class src/module-info.java
+error: invalid flag: src/javamodularity/greeter/Main.class
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ javac -d out src/javamodularity/greeter/Main.java src/module-info.java
+Main.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ javac -d out src/javamodularity/greeter/Main.java src/module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ javac -d out src/javamodularity/greeter/Main.java src/module-info.java
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ java -p out/
+com/               module-info.class
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll ../creating_module
+creating_module1/   creating_module_hl/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll
+total 0
+drwxr-xr-x 1 hly 1049089 0 Sep  5 06:46 out/
+drwxr-xr-x 1 hly 1049089 0 Sep  5 06:43 src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll out/
+com/               module-info.class
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ java -p out -m greeter/com.javamodularity.greeteer.Main
+Error: Could not find or load main class com.javamodularity.greeteer.Main in mod
+ule greeter
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll out/
+total 1
+drwxr-xr-x 1 hly 1049089   0 Sep  5 06:46 com/
+-rw-r--r-- 1 hly 1049089 156 Sep  5 06:46 module-info.class
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll ../creating_module
+creating_module1/   creating_module_hl/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll ../creating_module
+creating_module1/   creating_module_hl/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll ../creating_module1/
+out/ src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll ../creating_module1/out/
+total 1
+drwxr-xr-x 1 hly 1049089   0 Sep  4 07:09 com/
+-rw-r--r-- 1 hly 1049089 156 Sep  4 07:09 module-info.class
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ java -p out -m greeter/com.javamodularity.greeteer.Main
+Error: Could not find or load main class com.javamodularity.greeteer.Main in mod
+ule greeter
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ java -p out -m greeter/com.javamodularity.greeter.Main
+Greetings from a module!
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ java --help
+Usage: java [options] <mainclass> [args...]
+           (to execute a class)
+   or  java [options] -jar <jarfile> [args...]
+           (to execute a jar file)
+   or  java [options] -m <module>[/<mainclass>] [args...]
+       java [options] --module <module>[/<mainclass>] [args...]
+           (to execute the main class in a module)
+   or  java [options] <sourcefile> [args]
+           (to execute a single source-file program)
+
+ Arguments following the main class, source file, -jar <jarfile>,
+ -m or --module <module>/<mainclass> are passed as the arguments to
+ main class.
+
+ where options include:
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+    --class-path <class search path of directories and zip/jar files>
+                  A ; separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -p <module path>
+    --module-path <module path>...
+                  A ; separated list of directories, each directory
+                  is a directory of modules.
+    --upgrade-module-path <module path>...
+                  A ; separated list of directories, each directory
+                  is a directory of modules that replace upgradeable
+                  modules in the runtime image
+    --add-modules <module name>[,<module name>...]
+                  root modules to resolve in addition to the initial module.
+                  <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
+                  ALL-MODULE-PATH.
+    --enable-native-access <module name>[,<module name>...]
+                  modules that are permitted to perform restricted native operat
+ions.
+                  <module name> can also be ALL-UNNAMED.
+    --list-modules
+                  list observable modules and exit
+    -d <module name>
+    --describe-module <module name>
+                  describe a module and exit
+    --dry-run     create VM and load main class but do not execute main method.
+                  The --dry-run option may be useful for validating the
+                  command-line options such as the module system configuration.
+    --validate-modules
+                  validate all modules and exit
+                  The --validate-modules option may be useful for finding
+                  conflicts and other errors with modules on the module path.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|module|gc|jni]
+                  enable verbose output for the given subsystem
+    -version      print product version to the error stream and exit
+    --version     print product version to the output stream and exit
+    -showversion  print product version to the error stream and continue
+    --show-version
+                  print product version to the output stream and continue
+    --show-module-resolution
+                  show module resolution output during startup
+    -? -h -help
+                  print this help message to the error stream
+    --help        print this help message to the output stream
+    -X            print help on extra options to the error stream
+    --help-extra  print help on extra options to the output stream
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:jdwp
+                  see also -agentlib:jdwp=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+                  HiDPI scaled images are automatically supported and used
+                  if available. The unscaled image filename, e.g. image.ext,
+                  should always be passed as the argument to the -splash option.
+                  The most appropriate scaled image provided will be picked up
+                  automatically.
+                  See the SplashScreen API documentation for more information
+    @argument files
+                  one or more argument files containing options
+    -disable-@files
+                  prevent further argument file expansion
+    --enable-preview
+                  allow classes to depend on preview features of this release
+To specify an argument for a long option, you can use --<name>=<value> or
+--<name> <value>.
+
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ java -p out -m greeter/com.javamodularity.greeter.Main
+Greetings from a module!
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ ll
+total 0
+drwxr-xr-x 1 hly 1049089 0 Sep  5 06:46 out/
+drwxr-xr-x 1 hly 1049089 0 Sep  5 06:43 src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/creating_module_hl (main)
+$ cd ..
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside (main)
+$ ll
+total 0
+drwxr-xr-x 1 hly 1049089 0 Sep  3 07:06 creating_module1/
+drwxr-xr-x 1 hly 1049089 0 Sep  5 06:46 creating_module_hl/
+drwxr-xr-x 1 hly 1049089 0 Sep  5 07:38 dependencies_between_modules/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside (main)
+$ cd dependencies_between_modules/
+commands.txt  src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside (main)
+$ cd dependencies_between_modules/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ ll
+total 1
+-rw-r--r-- 1 hly 1049089 198 Feb  9  2021 commands.txt
+drwxr-xr-x 1 hly 1049089   0 Sep  5 07:38 src/
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ javac -d out --module-source-path src -m greeter
+error: module greeter not found in module source path
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ javac -d out --module-source-path src -m greeter.cli
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java -p out -m greeter.cli/greeter.cli.Main
+Hello from a module!
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --list-module
+Unrecognized option: --list-module
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --list-modules
+java.base@17.0.10
+java.compiler@17.0.10
+java.datatransfer@17.0.10
+java.desktop@17.0.10
+java.instrument@17.0.10
+java.logging@17.0.10
+java.management@17.0.10
+java.management.rmi@17.0.10
+java.naming@17.0.10
+java.net.http@17.0.10
+java.prefs@17.0.10
+java.rmi@17.0.10
+java.scripting@17.0.10
+java.se@17.0.10
+java.security.jgss@17.0.10
+java.security.sasl@17.0.10
+java.smartcardio@17.0.10
+java.sql@17.0.10
+java.sql.rowset@17.0.10
+java.transaction.xa@17.0.10
+java.xml@17.0.10
+java.xml.crypto@17.0.10
+jdk.accessibility@17.0.10
+jdk.attach@17.0.10
+jdk.charsets@17.0.10
+jdk.compiler@17.0.10
+jdk.crypto.cryptoki@17.0.10
+jdk.crypto.ec@17.0.10
+jdk.crypto.mscapi@17.0.10
+jdk.dynalink@17.0.10
+jdk.editpad@17.0.10
+jdk.hotspot.agent@17.0.10
+jdk.httpserver@17.0.10
+jdk.incubator.foreign@17.0.10
+jdk.incubator.vector@17.0.10
+jdk.internal.ed@17.0.10
+jdk.internal.jvmstat@17.0.10
+jdk.internal.le@17.0.10
+jdk.internal.opt@17.0.10
+jdk.internal.vm.ci@17.0.10
+jdk.internal.vm.compiler@17.0.10
+jdk.internal.vm.compiler.management@17.0.10
+jdk.jartool@17.0.10
+jdk.javadoc@17.0.10
+jdk.jcmd@17.0.10
+jdk.jconsole@17.0.10
+jdk.jdeps@17.0.10
+jdk.jdi@17.0.10
+jdk.jdwp.agent@17.0.10
+jdk.jfr@17.0.10
+jdk.jlink@17.0.10
+jdk.jpackage@17.0.10
+jdk.jshell@17.0.10
+jdk.jsobject@17.0.10
+jdk.jstatd@17.0.10
+jdk.localedata@17.0.10
+jdk.management@17.0.10
+jdk.management.agent@17.0.10
+jdk.management.jfr@17.0.10
+jdk.naming.dns@17.0.10
+jdk.naming.rmi@17.0.10
+jdk.net@17.0.10
+jdk.nio.mapmode@17.0.10
+jdk.random@17.0.10
+jdk.sctp@17.0.10
+jdk.security.auth@17.0.10
+jdk.security.jgss@17.0.10
+jdk.unsupported@17.0.10
+jdk.unsupported.desktop@17.0.10
+jdk.xml.dom@17.0.10
+jdk.zipfs@17.0.10
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --list-modules | xargs -ls -l | wc
+xargs: invalid number "s" for -l option
+Try 'xargs --help' for more information.
+      0       0       0
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --list-modules | xargs -ls -l
+xargs: invalid number "s" for -l option
+Try 'xargs --help' for more information.
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --list-modules | wc
+     71      71    1698
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --list-modules
+java.base@17.0.10
+java.compiler@17.0.10
+java.datatransfer@17.0.10
+java.desktop@17.0.10
+java.instrument@17.0.10
+java.logging@17.0.10
+java.management@17.0.10
+java.management.rmi@17.0.10
+java.naming@17.0.10
+java.net.http@17.0.10
+java.prefs@17.0.10
+java.rmi@17.0.10
+java.scripting@17.0.10
+java.se@17.0.10
+java.security.jgss@17.0.10
+java.security.sasl@17.0.10
+java.smartcardio@17.0.10
+java.sql@17.0.10
+java.sql.rowset@17.0.10
+java.transaction.xa@17.0.10
+java.xml@17.0.10
+java.xml.crypto@17.0.10
+jdk.accessibility@17.0.10
+jdk.attach@17.0.10
+jdk.charsets@17.0.10
+jdk.compiler@17.0.10
+jdk.crypto.cryptoki@17.0.10
+jdk.crypto.ec@17.0.10
+jdk.crypto.mscapi@17.0.10
+jdk.dynalink@17.0.10
+jdk.editpad@17.0.10
+jdk.hotspot.agent@17.0.10
+jdk.httpserver@17.0.10
+jdk.incubator.foreign@17.0.10
+jdk.incubator.vector@17.0.10
+jdk.internal.ed@17.0.10
+jdk.internal.jvmstat@17.0.10
+jdk.internal.le@17.0.10
+jdk.internal.opt@17.0.10
+jdk.internal.vm.ci@17.0.10
+jdk.internal.vm.compiler@17.0.10
+jdk.internal.vm.compiler.management@17.0.10
+jdk.jartool@17.0.10
+jdk.javadoc@17.0.10
+jdk.jcmd@17.0.10
+jdk.jconsole@17.0.10
+jdk.jdeps@17.0.10
+jdk.jdi@17.0.10
+jdk.jdwp.agent@17.0.10
+jdk.jfr@17.0.10
+jdk.jlink@17.0.10
+jdk.jpackage@17.0.10
+jdk.jshell@17.0.10
+jdk.jsobject@17.0.10
+jdk.jstatd@17.0.10
+jdk.localedata@17.0.10
+jdk.management@17.0.10
+jdk.management.agent@17.0.10
+jdk.management.jfr@17.0.10
+jdk.naming.dns@17.0.10
+jdk.naming.rmi@17.0.10
+jdk.net@17.0.10
+jdk.nio.mapmode@17.0.10
+jdk.random@17.0.10
+jdk.sctp@17.0.10
+jdk.security.auth@17.0.10
+jdk.security.jgss@17.0.10
+jdk.unsupported@17.0.10
+jdk.unsupported.desktop@17.0.10
+jdk.xml.dom@17.0.10
+jdk.zipfs@17.0.10
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --describe-module jdk.jstatd@17.0.10
+jdk.jstatd@17.0.10 not found
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --describe-module jdk.jstatd
+jdk.jstatd@17.0.10
+requires jdk.internal.jvmstat
+requires java.base mandated
+requires java.rmi
+provides sun.jvmstat.monitor.MonitoredHostService with sun.jvmstat.perfdata.monitor.protocol.rmi.MonitoredHostRmiService
+qualified exports sun.jvmstat.monitor.remote to java.rmi
+contains sun.jvmstat.perfdata.monitor.protocol.rmi
+contains sun.tools.jstatd
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --version
+java 17.0.10 2024-01-16 LTS
+Java(TM) SE Runtime Environment (build 17.0.10+11-LTS-240)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.10+11-LTS-240, mixed mode, sharing)
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$ java --describe-module java.sql
+java.sql@17.0.10
+exports java.sql
+exports javax.sql
+requires java.xml transitive
+requires java.logging transitive
+requires java.base mandated
+requires java.transaction.xa transitive
+uses java.sql.Driver
+
+hly@ITEM-S136649 MINGW64 ~/Desktop/Git/JavaPrepExam/src/moduleOutside/dependencies_between_modules (main)
+$
