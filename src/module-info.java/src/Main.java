@@ -78,6 +78,14 @@ public class Main {
      * Grumpy greetings from a module!
      * Friendly greetings from a module!
      * It runs the modules in out and the module in greeter.grumpy.jar
+     *
+     * Using jdeps: jdeps permits to know which module is used as dependency for a specific jar file
+     * jdeps -s app-storage.jar
+     * app-storage.jar -> java.base
+     * app-storage.jar -> java.sql
+     * We can generate module-info.java for a module also using jdeps
+     * jdeps --generate-module-info . app-storage.jar
+     * Module migration: we have to method to migrate modules: top-down migration and bottom-up migration
      */
 
     /**
