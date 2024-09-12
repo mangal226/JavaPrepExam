@@ -38,7 +38,7 @@ public class Localization {
         };
 
         Locale locale = Locale.getDefault();
-        System.out.println(locale.toString());
+        //System.out.println(locale.toString());
 
         /**
          * Using resourceBundle class and associated properties files
@@ -46,7 +46,8 @@ public class Localization {
         //resourceBundle();
         //getCurrency();
         //getLocalDateTime();
-        chooseTimeZone();
+        //chooseTimeZone();
+        formatNumber();
 
     }
 
@@ -98,6 +99,17 @@ public class Localization {
         System.out.println(localTime.getMinute());
         System.out.println(localTime.getSecond());
         System.out.println(localTime.getNano());
+
+    }
+
+    public static void formatNumber(){
+        double number = 2464765743856.748743;
+
+        //NumberFormat numberFormat = NumberFormat.getInstance(Locale.getDefault());
+        NumberFormat numberFormat = NumberFormat.getInstance(new Locale("en", "US"));
+        numberFormat.setMaximumFractionDigits(3);
+        String value = numberFormat.format(number);
+        System.out.println(value);
 
     }
 
