@@ -1,5 +1,6 @@
 package src.src.preparationNotes;
 
+import javax.swing.text.StyledEditorKit;
 import java.io.*;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -56,8 +57,48 @@ public class Exam1Exercises {
         /**
          * Question 7 : what is the output for jdbc
          * result expected one line is added in the database for user with the values specified
+         * result observerd : runtime exception with a duplicate entry for the primary key
          */
-        Database.test();
+        //Database.test();
+
+        /**
+         * Question 8 the output for the loop
+         * expected result : 101
+         */
+        loop();
+
+        /**
+         * Question 9:
+         * expected result The output should be 97
+         * result is 97
+         */
+        testChar();
+
+        /**
+         * Functional interface
+         * the line to add is Calculator.add(i,j);
+         * it is the correct answer
+         */
+        FunctionalInterface.testOperator();
+
+        /**
+         * Question 11: which phase of software development is affected by modules
+         * all the options
+         */
+
+        /**
+         * Question 12:
+         * The output is compilation error if we don't have the ","
+         */
+        Directions.NORTH.getNotation();
+
+        /**
+         * Question 13
+         * the output sould be null:null
+         * Yes it is true
+         */
+        Boolean boolArray[] = new Boolean[2];
+        System.out.println(boolArray[0] + ": " + boolArray[1]);
 
     }
 
@@ -202,6 +243,66 @@ public class Exam1Exercises {
             }
         }
 
+    }
+
+    public static void loop(){
+        int ctr = 100;
+        one: for(var i=0; i<10; i++){
+            two: for (var j=0; j<7; j++){
+                three: while(true){
+                    ctr++;
+                    if(i>j){
+                        break one;
+                    } else if(i==j){
+                        break two;
+                    }else break three;
+                }
+            }
+        }
+
+        System.out.println(ctr);
+    }
+
+    public static void testChar(){
+        char c1 = 'a';
+        int i1 = c1;
+
+        System.out.println(i1);
+    }
+
+    public static class FunctionalInterface{
+      @java.lang.FunctionalInterface
+      interface Operator{
+          void operate(int i, int j);
+      }
+
+      public class Calculator{
+          public static void add(int i, int j){
+              System.out.println(i+j);
+          }
+      }
+
+      public static void testOperator(){
+          Operator opr = (i,j) ->
+                  //System.out.println(i+j);
+                  Calculator.add(i, j);
+          opr.operate(15,25);
+      }
+
+    }
+
+    public enum Directions{
+        NORTH("N"), SOUTH("S"), EAST("E"), WEST("W");
+
+        private String notation;
+
+        public String getNotation() {
+            return notation;
+        }
+
+        Directions(String notation){
+            this.notation = notation;
+        }
     }
 
 
