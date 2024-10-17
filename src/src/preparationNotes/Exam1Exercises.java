@@ -4,10 +4,14 @@ import javax.swing.text.StyledEditorKit;
 import java.io.*;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Set;
+import java.time.Month;
+import java.time.Period;
+import java.util.*;
+import java.util.function.Supplier;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Exam1Exercises {
 
@@ -99,6 +103,48 @@ public class Exam1Exercises {
          */
         Boolean boolArray[] = new Boolean[2];
         System.out.println(boolArray[0] + ": " + boolArray[1]);
+
+        /**
+         * Question 14 : the best way to instantiate record
+         */
+        //Record.Ticket.class;
+
+        /**
+         * Question 15 : the period between two dates
+         * the output should be P-10D
+         * the output is P10D
+         */
+        LocalDate startDate = LocalDate.of(2023, Month.MARCH, 1);
+        LocalDate endDate = LocalDate.of(2023, Month.MARCH, 11);
+        System.out.println(Period.between(startDate, endDate));
+
+        /**
+         * Question 16: the output should be P1000M that means 1000 Months with M majuscule
+         */
+        Period period = Period.of(0,1000, 0);
+        System.out.println(period);
+
+        /**
+         * Records in Java are a new kind of class that serve as nominal types,
+         * meaning they are transparent carriers for immutable data.
+         * It came in java 17
+         */
+
+        /**
+         * Question 17 : the best way to instantiate a date function
+         * The best way to instantiate is supplier
+         */
+        Supplier<Date> obj = Date::new;
+        Date date = obj.get();
+        System.out.println(date);
+
+        /**
+         * Question 18 : the expected result of a map of color using record
+         * the expected result is 5 yes the result is 5
+         */
+        Ropero.testRecordRope();
+
+
 
     }
 
@@ -304,6 +350,51 @@ public class Exam1Exercises {
             this.notation = notation;
         }
     }
+
+    public static class Record{
+        record Ticket(int id, LocalDate localDate){
+            Ticket (int id, LocalDate localDate){
+                if(id<10001 || id>100001){
+                    throw new IllegalArgumentException(String.format("id : %s is not valid", id));
+                }
+                if(localDate.isBefore(LocalDate.of(2022,12, 31)) || localDate.isAfter(LocalDate.of(2023,1,1))){
+                    throw new IllegalArgumentException(String.format("date %s is not valid", localDate.toString()));
+                }
+                this.id = id;
+                this.localDate = localDate;
+            }
+
+        }
+    }
+
+
+    public class Ropero{
+        enum Color{RED,GREEN,BLUE};
+
+        record Rope(int length, Color color){}
+        record Group(Map<Color, List<Rope>> map1, Map<Integer, List<Rope>> map2){};
+
+        public static void testRecordRope(){
+            var ropes = Stream.of(
+                    new Rope(100, Color.RED),
+                    new Rope(200, Color.BLUE),
+                    new Rope(300, Color.RED),
+                    new Rope(200, Color.RED),
+                    new Rope(100, Color.BLUE)
+            );
+
+            var results = ropes.collect(
+                    Collectors.teeing(
+                    Collectors.groupingBy(Rope::color),
+                    Collectors.groupingBy(Rope::length),
+                    Group::new)
+            );
+
+            System.out.println(results.map1.size() + results.map2.size());
+        }
+    }
+
+
 
 
 
