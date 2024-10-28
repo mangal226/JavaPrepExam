@@ -1,9 +1,13 @@
 package src.src.preparationNotes;
 
+import com.mysql.cj.protocol.Message;
+
 import javax.swing.text.StyledEditorKit;
 import java.io.*;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.text.DecimalFormat;
+import java.text.MessageFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;
@@ -11,11 +15,12 @@ import java.time.Period;
 import java.util.*;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Exam1Exercises {
 
-    public static void main(String [] args){
+    public static void main(String [] args) throws IOException {
 
         // Question 1 : testing strings
         String s1 = "Hello world";
@@ -143,6 +148,59 @@ public class Exam1Exercises {
          * the expected result is 5 yes the result is 5
          */
         Ropero.testRecordRope();
+
+        /**
+         * Question 19: the output using console reader
+         * the expected result is it waits
+         * the answer is compilation error with null pointer exception because the console is null
+         */
+        //testConsole();
+
+
+        /**
+         * Question 20: The expected result is 1, 2 ArithmeticException
+         * the result is : 1 java.lang.ClassCastException
+         */
+        testException();
+
+        /**
+         * Question 21: the output of args parmater in main function
+         * Result compilation error exeption catch must be disjoint not in the same line i.e. catch, then catch again
+         */
+        /*try {
+            System.out.println(args.length);
+        }catch (NullPointerException | RuntimeException ex){
+            System.out.println("DONE");
+        }*/
+
+        /**
+         * Question 22: what to put to have the right answer
+         */
+        A.voidA();
+
+        /**
+         * Question 23: result of message format
+         * the format respect the order
+         */
+        String formatting = "LastName {1} FistName {0}";
+        String result = MessageFormat.format(formatting, "Hamouda", "Damnar");
+        System.out.println(result);
+
+        /**
+         * Question 24
+         * the expected result is true
+         */
+        var df1 = new DecimalFormat("##, ##,#");
+        var df2 = new DecimalFormat("##, ###,#");
+        System.out.println(df1.format(1231).equals(df2.format(1231)));
+
+        /**
+         * Question 25
+         * there is a compilation error in the below code because the method log is static
+         */
+        //class MyLogger extends Log implements ILog{}
+
+
 
 
 
@@ -391,6 +449,62 @@ public class Exam1Exercises {
             );
 
             System.out.println(results.map1.size() + results.map2.size());
+        }
+    }
+
+    public static void testConsole() throws IOException {
+      var console = System.console();
+      console.writer().printf("Enter a number between 1 and 7 ");
+      var num = Integer.parseInt("" + console.reader().read());
+      var flag = IntStream.rangeClosed(1,7).anyMatch(i-> i == num);
+      if(flag) console.printf("*".repeat(num));
+      else console.writer().format("Invalid");
+    }
+
+    public static void testException(){
+        try {
+            checkException();
+        }catch (RuntimeException e){
+            System.out.println(e.getClass().getName());
+        }
+    }
+
+    public static void checkException(){
+        try {
+            RuntimeException re = new RuntimeException();
+            throw re;
+        }catch (RuntimeException e){
+            System.out.println(1);
+            ArithmeticException ex = (ArithmeticException) e;
+            System.out.println(2);
+            throw  ex;
+        }
+    }
+
+    public static class A{
+        private static class B {
+            private static void log(){
+                System.out.println("BE THE CHANGE YOU WANT TO SEE IN THE WORLD");
+            }
+        }
+
+        public static void voidA(){
+         B b = new B();
+         b.log();
+         A.B ab = new A.B();
+         ab.log();
+         var abv = new A.B();
+         abv.log();
+        }
+    }
+    public interface ILog{
+        default void log(){
+            System.out.println("ILog");
+        }
+    }
+    public abstract class Log{
+        public static void log(){
+            System.out.println("Log");
         }
     }
 
