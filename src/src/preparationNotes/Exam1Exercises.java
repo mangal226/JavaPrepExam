@@ -13,6 +13,9 @@ import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.Period;
 import java.util.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executors;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -20,7 +23,7 @@ import java.util.stream.Stream;
 
 public class Exam1Exercises {
 
-    public static void main(String [] args) throws IOException {
+    public static void main(String [] args) throws IOException, ExecutionException, InterruptedException {
 
         // Question 1 : testing strings
         String s1 = "Hello world";
@@ -200,8 +203,32 @@ public class Exam1Exercises {
          */
         //class MyLogger extends Log implements ILog{}
 
+        /**
+         * Question 26: What is the output
+         * Expected : the program compiles but nothing is printed
+         * Result ok
+         */
+        ITester objI = () -> System.out.println("KEEP CALM");
 
+        /**
+         * Question 27: What is the output
+         * Expected result : the program doesn't terminate but prints null, null
+         * Result: the program terminates after printing Call, null
+         */
+        var es = Executors.newSingleThreadExecutor();
+        var future = es.submit(new Caller("Call"));
+        System.out.println(future.get());
 
+        /**
+         * Question 31:
+         * Expected result : compilation error in test class
+         * miss catch clause
+         */
+        try (AutoCloseable resource = new MyResource()){
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
 
     }
@@ -506,6 +533,63 @@ public class Exam1Exercises {
         public static void log(){
             System.out.println("Log");
         }
+    }
+
+    public static interface ITester{
+        void test();
+    }
+
+    public static class Caller implements Callable<Void>{
+        String str;
+
+        public Caller(String s){
+            this.str = s;
+        }
+
+        @Override
+        public Void call() throws Exception {
+            System.out.println(str.toUpperCase());
+            return null;
+        }
+    }
+
+    public abstract class Animal{
+        public String name;
+
+        public String getName() {
+            return name;
+        }
+
+        Animal(String name){
+            this.name = name;
+        }
+    }
+
+    public class Dog extends Animal{
+        public String breed;
+
+        public String getBreed() {
+            return breed;
+        }
+
+        Dog(String name, String breed) {
+            super(name);
+            this.breed = breed;
+        }
+
+        //Dog(String breed){
+          //  this.breed = breed;
+        //}
+    }
+
+    public static class MyResource implements AutoCloseable{
+
+        @Override
+        public void close() throws Exception {
+            System.out.println("Closing");
+        }
+
+
     }
 
 
