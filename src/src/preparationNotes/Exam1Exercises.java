@@ -216,8 +216,8 @@ public class Exam1Exercises {
          * Result: the program terminates after printing Call, null
          */
         var es = Executors.newSingleThreadExecutor();
-        var future = es.submit(new Caller("Call"));
-        System.out.println(future.get());
+        //var future = es.submit(new Caller("Call"));
+        //System.out.println(future.get());
 
         /**
          * Question 31:
@@ -229,6 +229,14 @@ public class Exam1Exercises {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+
+        /**
+         * Question 32:
+         * The output shoudl be 10
+         * The output is 0 why?
+         */
+        System.out.println("Hello");
+        System.out.println(IntStream.range(10,1).count());
 
 
     }
